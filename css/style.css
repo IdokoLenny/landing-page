@@ -61,6 +61,48 @@ ul li a{
     justify-content: center;
     align-items: center;
 }
+ 
+
+/* Info - Section */
+
+.info-section h2{
+    margin: 2rem;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+.info-section div{
+    width: 42%;
+    margin: 0 auto;
+    display: flex;
+    gap: 2.5rem;
+    margin-bottom: 3rem;
+}
+.content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 12rem;
+    
+}
+.info-section div .content{
+    gap: 0;
+}
+.content div{
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    width: 100%;
+    height: 70%;
+    margin-bottom: 0.5rem;
+}
+.content p{
+    color: #747575;
+    font-size: 18px;
+    text-align: center;
+}
+
+
 
 
 
